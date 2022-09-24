@@ -48,7 +48,13 @@
 <h2>PHP Exercise 4</h2>
 
 <?php
-	
+	var_dump("Harry");
+	echo "<br>";
+	var_export('Harry');
+	echo "<br>";
+	var_dump(42);
+	echo "<br>";
+	var_dump(Null);
 ?>
 
 </body>
