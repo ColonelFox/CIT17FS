@@ -26,13 +26,19 @@
 	}
 	echo "<br> <br> <b>Sorted list of the Countries: </b><br>";
 	sort($cities);
-	for ($i=0; $i < count($cities); $i++) { 
-		if ($i==count($cities)-1) {
-			echo $cities[$i].".";
-		}else{
-			echo $cities[$i].", ";
-		}
+	echo "<ul>";
+	foreach ($cities as $c) {
+		echo "<li>".$c."</li>";
 	}
+	echo "</ul>";
+	array_push($cities,"Los Angeles","Calcutta","Osaka","Beijing");
+	echo "<br> <br> <b>Sorted list with the Added Countries: </b><br>";
+	sort($cities);
+	echo "<ul>";
+	foreach ($cities as $c) {
+		echo "<li>".$c."</li>";
+	}
+	echo "</ul>";
 ?>
 
 </body>
