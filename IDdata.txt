@@ -1,0 +1,19 @@
+Array
+(
+    [0] => Array
+        (
+            [firstName] => Andrew James
+            [middleName] => 
+            [lastName] => Dacanay
+            [bdate-month] => month
+            [bdate-day] => day
+            [bdate-year] => year
+            [id1] => 
+            [id2] => 
+            [id3] => 
+            [college] => Information Technology & Computer Science
+            [contactName] => Andrew James Dacanay
+            [contactNumber] => 09776546878
+        )
+
+)
